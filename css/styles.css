@@ -403,7 +403,7 @@ img {
 @media screen {
   .page-hero {
     width: 100%;
-    padding: 72px 75px;
+    padding: 72px 0;
     background-color: var(--navy-blue-color);
     width: 100%;
     margin: 0 auto;
@@ -418,9 +418,9 @@ img {
     background-position: center;
   }
 
-  .page-hero .container {
-    /* width: 100%;
-    padding: 72px 75px; */
+  .page-hero.container {
+    width: 216px;
+    margin: auto auto;
   }
 
   .hero-title {
@@ -935,6 +935,7 @@ img {
 
   .subscription-label {
     display: flex;
+    width: 288px;
   }
 
   .subscription-input {
@@ -947,8 +948,9 @@ img {
     background-color: transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: #ffffff;
-    width: 264px;
+    width: 288px;
     height: 40px;
+
     outline: transparent;
     padding-left: 16px;
   }
