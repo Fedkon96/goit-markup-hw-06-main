@@ -1035,12 +1035,12 @@ img {
 
   .flex-box {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    /* flex-direction: row;
+    justify-content: space-between; */
     flex-wrap: wrap;
     align-items: baseline;
     column-gap: 0;
-    row-gap: 72px;
+    /* row-gap: 72px; */
   }
 
   .footer-note {
@@ -1049,6 +1049,14 @@ img {
 
   .social-box-footer {
     margin-right: 80px;
+  }
+
+  .subscription-label {
+    width: 264px;
+  }
+
+  .subscription-input {
+    border: 1px solid #ffffff;
   }
 }
 
